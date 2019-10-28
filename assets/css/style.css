@@ -1,12 +1,28 @@
-head 
-    {background-color: teal;
 
-}
 body
-    {font-family: Georgia, 'Times New Roman', Times, serif;
+   {font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
+background-image: url(
+"../images/diagonal-squares/diagonal-squares.png"
+);
 
 }
-headder
-    {background-color: #ffffff;}
+h1{background-color: teal;}
+header
+    {background-color: teal;
+    display: block;
+margin: 0%;
+padding: 0%;
+width: 100%;
+}
+h1 {float: left;
+}
+nav{
+    float: right;
     
+}
+h2{float: center;
+}
+image{float: left;
+}
+

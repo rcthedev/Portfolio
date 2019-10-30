@@ -2,7 +2,7 @@
 body
    {font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
-/* background-image: url(
+/* /* background-image: url( */
 "../images/diagonal-squares/diagonal-squares.png"
 ); */
 
@@ -13,10 +13,10 @@ header
         border: 2px solid red;
 
     display: block;
-margin-left:150px;
-margin-right: 150px;
-padding: 0%;
-width: 80%;
+
+
+width: 960px;
+box-sizing: border-box;
 }
 .clearfix::after{
     content:"";
@@ -25,15 +25,16 @@ width: 80%;
 }
 
 
-image
+img
 {float: left;
 }
 .my-title-name
 {
     float: left;
     color: white;
-    background-color: teal
-    
+    background-color: teal;
+    position: fixed; left: 20%;
+    padding: 2%;
    
 }
 .links{
@@ -42,13 +43,18 @@ image
 }
 .content{
     border:2px solid red;
-    margin-left: 150px;
-    width: 80%;
+    margin-left: 300px;
+    width: 960px;
     
 }
 .about-me{
-    
+    font-size: 30px;
     color: teal;
+    padding: 2%;
+    padding-top: 18%;
+    margin: auto;
+    
+
 }
 footer
 
@@ -58,3 +64,51 @@ nav{
     position: absolute;
     right: 15%;
 }
+h1
+{font-size: 24px;
+font-weight: bold;
+padding: 10px;}
+
+li{
+    display: inline;
+}
+h2 {color: teal;}
+
+input[type=text], select, textarea
+{width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+
+}
+input[type=submit]
+{background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+input[type=submit]:hover 
+{
+    background-color: blue;
+
+}
+.container
+{border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+
+main{
+    width: 960px;
+    margin: auto;
+    padding: 0 0 10% 0;
+}
+nav {position: absolute; right: 15%;}

@@ -33,9 +33,12 @@ image
     float: left;
     color: white;
     background-color: teal
+    
+   
 }
 .links{
     float: right;
+    color: white;
 }
 .content{
     border:2px solid red;
@@ -44,5 +47,14 @@ image
     
 }
 .about-me{
+    
     color: teal;
+}
+footer
+
+{text-align: center;}
+
+nav{
+    position: absolute;
+    right: 15%;
 }

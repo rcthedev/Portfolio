@@ -2,72 +2,25 @@
 body
    {font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
-/* /* background-image: url( */
-"../images/diagonal-squares/diagonal-squares.png"
-); */
-
-}
-
-header
-    {background-color: white;
-        border: 2px solid red;
-
-    display: block;
-
-
-width: 960px;
-box-sizing: border-box;
-}
-.clearfix::after{
-    content:"";
-    clear: both;
-    display: block;
-}
-
-
-img
-{float: left;
-}
-.my-title-name
-{
-    float: left;
-    color: white;
-    background-color: teal;
-    position: fixed; left: 20%;
-    padding: 2%;
    
 }
-.links{
-    float: right;
-    color: white;
-}
-.content{
-    border:2px solid red;
-    margin-left: 300px;
-    width: 960px;
-    
-}
-.about-me{
-    font-size: 30px;
-    color: teal;
-    padding: 2%;
-    padding-top: 18%;
-    margin: auto;
-    
+header
+{border: 2px solid blue;
+    position: relative;
 
 }
+h1{
+    
+    
+}
+nav{
+    position: absolute; right: 20%; top: 25px;
+
+}
+
 footer
 
 {text-align: center;}
-
-nav{
-    position: absolute;
-    right: 15%;
-}
-h1
-{font-size: 24px;
-font-weight: bold;
-padding: 10px;}
 
 li{
     display: inline;
@@ -111,4 +64,3 @@ main{
     margin: auto;
     padding: 0 0 10% 0;
 }
-nav {position: absolute; right: 15%;}

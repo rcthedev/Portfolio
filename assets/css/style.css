@@ -8,8 +8,8 @@ header {
   /* float: left; */
 }
 .navlink {
-    color: #777777;
-    font-size: 20px;
+  color: #777777;
+  font-size: 20px;
 }
 h1 {
   width: 960px;
@@ -22,12 +22,22 @@ nav {
   top: 25px;
 }
 
+li
+{
+ float: left;
+
+}
+a
+{
+  display: block;
+  padding: 8px;
+  background-color: teal;
+}
 footer {
   text-align: center;
 }
 
-li {
-  display: inline;
+
 }
 h2 {
   color: teal;
@@ -68,10 +78,12 @@ main {
   padding: 0 0 10% 0;
 }
 .name {
-    background-color: brown;
-    position: fixed;
-    top: 20px;
-    
-    
-
+  display: block;
+  padding: 20px;
+  background-color: teal;
+  color: white;
+  position: fixed;
+  width: 300px;
+  margin: auto;
+  float: left 150px;
 }

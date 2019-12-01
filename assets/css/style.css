@@ -4,7 +4,8 @@ body {
   color: #777777;
 }
 header {
-  border: 2px solid blue;
+  background-color: teal;
+  border: 2px solid teal;
   height: 200px;
   /* float: left; */
 }
@@ -38,7 +39,9 @@ nav {
 
 li
 {
- float: left;
+  
+    list-style-type: none;
+    float: left;
 
 }
 a
@@ -94,8 +97,18 @@ main {
   padding: 20px;
   background-color: teal;
   color: white;
-  position: fixed;
+  position: relative;
   width: 300px;
   margin-left: 260px;
   float: left 150px;
+}
+
+.box {
+  display: inline-block;
+  width: 30%;
+
+}
+
+.space {
+  width: 20px;
 }
